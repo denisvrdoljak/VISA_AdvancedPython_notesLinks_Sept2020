@@ -1,0 +1,152 @@
+************* Module blackjack
+blackjack.py:1:28: C0326: Exactly one space required after comma
+from deckofcards import Deck,Card
+                            ^ (bad-whitespace)
+blackjack.py:4:21: C0326: Exactly one space required after comma
+    def __init__(self,numberofdecks=1):
+                     ^ (bad-whitespace)
+blackjack.py:5:42: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:7:0: C0301: Line too long (129/100) (line-too-long)
+blackjack.py:14:19: C0326: Exactly one space required before assignment
+        self.deck  *= self.numberofdecks
+                   ^^ (bad-whitespace)
+blackjack.py:19:21: C0326: Exactly one space required after comma
+    def __init__(self,name=None,dealer=False):
+                     ^ (bad-whitespace)
+blackjack.py:19:31: C0326: Exactly one space required after comma
+    def __init__(self,name=None,dealer=False):
+                               ^ (bad-whitespace)
+blackjack.py:22:0: C0301: Line too long (106/100) (line-too-long)
+blackjack.py:25:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:54:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:60:26: C0326: Exactly one space required after assignment
+                handvalue -=10
+                          ^^ (bad-whitespace)
+blackjack.py:63:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:64:16: C0326: Exactly one space required after comma
+    def bet(self,betammount):
+                ^ (bad-whitespace)
+blackjack.py:68:0: C0301: Line too long (121/100) (line-too-long)
+blackjack.py:68:108: C0326: Exactly one space required after comma
+            raise ValueError("cannot bet more than player has. Player has (), bet was ().".format(self.money,betammount))
+                                                                                                            ^ (bad-whitespace)
+blackjack.py:72:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:79:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:83:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:86:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:89:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:93:22: C0326: Exactly one space required after comma
+    def take_card(self,card):
+                      ^ (bad-whitespace)
+blackjack.py:97:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:102:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:105:43: C0326: Exactly one space required around comparison
+        elif self.dealer and len(self.hand)>1:
+                                           ^ (bad-whitespace)
+blackjack.py:115:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:116:25: C0326: Exactly one space required after comma
+    def sit_at_table(self,player):
+                         ^ (bad-whitespace)
+blackjack.py:122:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:123:25: C0326: Exactly one space required after comma
+    def assigndealer(self,dealer):
+                         ^ (bad-whitespace)
+blackjack.py:129:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:130:21: C0326: Exactly one space required after comma
+    def loadboot(self,boot):
+                     ^ (bad-whitespace)
+blackjack.py:134:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:136:54: C0326: Exactly one space required around comparison
+        if self.dealer is not None and len(self.table)>0 and self.boot is not None:
+                                                      ^ (bad-whitespace)
+blackjack.py:140:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:147:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:152:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:157:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:169:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:184:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:185:21: C0326: Exactly one space required after comma
+    def userplay(self,player):
+                     ^ (bad-whitespace)
+blackjack.py:197:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:206:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:207:21: C0326: Exactly one space required after comma
+    def user_bet(self,player):
+                     ^ (bad-whitespace)
+blackjack.py:209:0: C0301: Line too long (149/100) (line-too-long)
+blackjack.py:225:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:226:21: C0326: Exactly one space required after comma
+    def deal_one(self,player):
+                     ^ (bad-whitespace)
+blackjack.py:232:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:239:0: C0301: Line too long (110/100) (line-too-long)
+blackjack.py:240:0: C0301: Line too long (123/100) (line-too-long)
+blackjack.py:241:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:243:34: C0326: Exactly one space required after comparison
+        if dealer.get_handvalue() >=17:
+                                  ^^ (bad-whitespace)
+blackjack.py:245:37: C0326: Exactly one space required after comparison
+        while dealer.get_handvalue() <17:
+                                     ^ (bad-whitespace)
+blackjack.py:246:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:252:78: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:255:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:264:65: C0326: Exactly one space required after comma
+                print("Player {} now has ${}.".format(player.name,player.get_moneyamount()))
+                                                                 ^ (bad-whitespace)
+blackjack.py:269:61: C0326: Exactly one space required after comma
+            print("Player {} now has ${}.".format(player.name,player.get_moneyamount()))
+                                                             ^ (bad-whitespace)
+blackjack.py:270:0: C0303: Trailing whitespace (trailing-whitespace)
+blackjack.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+blackjack.py:3:0: C0115: Missing class docstring (missing-class-docstring)
+blackjack.py:4:4: W0231: __init__ method from base class 'Deck' is not called (super-init-not-called)
+blackjack.py:6:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+blackjack.py:12:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:18:0: C0115: Missing class docstring (missing-class-docstring)
+blackjack.py:21:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+blackjack.py:23:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+blackjack.py:47:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:51:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:55:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:64:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:65:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+blackjack.py:68:29: E1305: Too many arguments for format string (too-many-format-args)
+blackjack.py:73:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:80:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:84:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:87:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:90:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:93:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:94:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+blackjack.py:103:8: R1705: Unnecessary "elif" after "return" (no-else-return)
+blackjack.py:110:0: C0115: Missing class docstring (missing-class-docstring)
+blackjack.py:116:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:117:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+blackjack.py:123:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:124:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+blackjack.py:130:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:131:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+blackjack.py:135:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:136:8: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+blackjack.py:136:8: R1705: Unnecessary "else" after "return" (no-else-return)
+blackjack.py:141:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:148:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:185:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:192:12: R1723: Unnecessary "else" after "break" (no-else-break)
+blackjack.py:198:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:201:12: R1724: Unnecessary "elif" after "continue" (no-else-continue)
+blackjack.py:207:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:210:12: R1723: Unnecessary "elif" after "break" (no-else-break)
+blackjack.py:207:4: R0201: Method could be a function (no-self-use)
+blackjack.py:226:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:233:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:256:4: C0116: Missing function or method docstring (missing-function-docstring)
+blackjack.py:269:50: W0631: Using possibly undefined loop variable 'player' (undefined-loop-variable)
+blackjack.py:269:62: W0631: Using possibly undefined loop variable 'player' (undefined-loop-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 4.41/10 (previous run: 4.41/10, +0.00)
+
