@@ -23,3 +23,21 @@ https://github.com/denisvrdoljak/msis2802_Spring2019
 https://stackoverflow.com/questions/38134086/how-to-run-pylint-with-pycharm
 (good walk through with screen shots)
 
+# Flask Basics
+
+### Flask Tutorial:
+https://github.com/denisvrdoljak/OMIS30_Fall2018/blob/master/wk9/Flask%20-%20Introduction%20to%20Flask.ipynb
+
+
+### Simple Hello World Flask App:
+https://github.com/denisvrdoljak/OMIS30_Spring2020/blob/master/wk8/flask-helloworld/app.py
+
+## Flask Demo:
+https://github.com/denisvrdoljak/OMIS30_Fall2018/tree/master/flaskdemo
+* note use of GLOBAL statement (don't do this) instead of Flask SESSION object (do this)
+
+## on Flask Session object
+https://riptutorial.com/flask/example/30619/accessing-and-manipulating-session-variables-in-your-tests-using-flask-testing
+
+# Books and Resources
+* Will be listed here in future. Check back soon.
